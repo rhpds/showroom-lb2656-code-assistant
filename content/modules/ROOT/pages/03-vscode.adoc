@@ -1,16 +1,13 @@
-= Building a Code Assistant with Granite and RHEL AI
-
 :experimental: true
 :imagesdir: ../assets/images
 :toc: false
 :numbered: true
 
-== Setting Up Visual Studio Code
+= Setting Up Visual Studio Code
 
 Navigate to the second **Codeserver** tab to begin working in the Visual Studio Code application.
 
-[#install_asst]
-=== Install Code Assistant Extension
+== Install Code Assistant Extension
 
 Select the bottom navigation item on the left-hand side to open up the extensions marketplace.
 
@@ -36,8 +33,7 @@ Once done installing the proper version, click **Reload Window**
 
 Now, we're ready to configure our model connection!
 
-[#setup_asst]
-=== Setup our Code Assistant
+== Setup our Code Assistant
 
 Navigate to the Continue extension in the left-hand side navigation bar:
 

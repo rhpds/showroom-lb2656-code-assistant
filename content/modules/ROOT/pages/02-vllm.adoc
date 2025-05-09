@@ -1,18 +1,15 @@
-= Building a Code Assistant with Granite and RHEL AI
-
 :experimental: true
 :imagesdir: ../assets/images
 :toc: false
 :numbered: true
 
-== Configuring vLLM for Remote Access
+= Configuring vLLM for Remote Access
 
 vLLM is an open-source inference runtime designed to optimize the inference of LLMs. It uses a novel memory management approach, PagedAttention, to reduce memory usage and increase throughput. By dynamically batching incoming requests, vLLM ensures efficient hardware utilization and lower latency.
 
 vLLM is the inference engine used within RHEL AI to serve models, and is also a runtime option available in OpenShift AI. vLLM is the inference engine of choice within our platforms when working with generative AI models.
 
-[#chat]
-=== Chat with the Model
+== Chat with the Model
 
 Now you will utilize your second terminal window to chat with the deployed model. 
 
@@ -37,12 +34,10 @@ You will know you are successful when the following appears on the screen:
 
 At the chat prompt (`>>>`), feel free to chat with the model a bit!
 
-[#code_asst]
 == Integrating the Model into a Code Assistant
 
 So, we have our model deployed and we've chatted with it a bit in RHEL AI - awesome! Now let's get our code assistant setup so we can do some remote development work - a more realistic scenario. 
 
-[#api]
 === Setup vLLM API Key
 
 Before we go to our Visual Studio Code environment, we'll need an API key which we will use to access our deployed model. Exit out of the chat if you still have it running by typing `exit`:
@@ -88,6 +83,7 @@ IMPORTANT: You will need your API key for later steps. Please **right-click** to
 Easy peasy!
 
 ==== Serve or re-serve the Granite model in one of the terminals.
+
 [source,console,role=execute,subs=attributes+]
 ----
 ilab model serve --model-path ~/.cache/instructlab/models/granite-3.1-8b-lab-v1 --gpus 1 -- --max-model-len 5000

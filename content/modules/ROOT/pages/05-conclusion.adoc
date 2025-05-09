@@ -1,11 +1,9 @@
-= Building a Code Assistant with Granite and RHEL AI
-
 :experimental: true
 :imagesdir: ../assets/images
 :toc: false
 :numbered: true
 
-== Conclusion
+= Conclusion
 
 Great job! 
 

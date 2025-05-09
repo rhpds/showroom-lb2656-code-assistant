@@ -1,16 +1,13 @@
-= Building a Code Assistant with Granite and RHEL AI
-
 :experimental: true
 :imagesdir: ../assets/images
 :toc: false
 :numbered: true
 
-[#code_activity]
-== Coding With AI
+= Coding With AI
 
 During this portion of the lab, we are going to use AI to build real computer programs! Crazy, right? Even if you're not a coder, don't worry, you're gonna do great.
 
-=== Game Time
+== Game Time
 
 We are going to build some short and sweet (and fun) game programs from scratch! 
 
@@ -25,7 +22,7 @@ If you choose to work in other languages, by all means! However, I will only pro
 
 We have template scripts with instructions for you to follow as comments in the files. Let's get working.
 
-==== Accessing the activity files
+=== Accessing the activity files
 
 We already have the GitHub repo cloned to our machine with the necessary files. 
 
@@ -40,13 +37,13 @@ Now, from the left-hand side Explorer, open the `game_templates` folder.
 
 Select the game file of your preference, in the language of your choice. (feel free to do multiple!) Open the files you want to work on in the VS Code editor.
 
-==== Game Summaries
+=== Game Summaries
 
 . **Rock Paper Scissors**: Play rock, paper, scissors against the computer!
 . **Word Scramble**: The program scrambles a word and the user has to guess what it is.
 . **Simple Quiz Game**: The program asks a few trivia questions and then gives a final score.
 
-==== Get to Coding!
+== Get to Coding!
 
 Once you have opened the files you wish to work on, click the `Continue` extension tab again on the left-hand side of the VS Code window. You may toggle between the Files and Continue tabs as you need.
 
@@ -54,11 +51,11 @@ Follow the guidance in the game building activity files. Instructions for each g
 
 IMPORTANT: Ensure any text that does not contribute to the game code stays as a comment. You will build out the application code in the second half of the files.
 
-**Experiment with other models and various Continue functions while coding**
+=== Experiment with other models and various Continue functions while coding
 
-* Ensure you are experimenting with the various models available to you whilst coding your game!
+Ensure you are experimenting with the various models available to you whilst coding your game!
 
-**Switching models in RHEL AI**
+=== Switching models in RHEL AI
 
 We suggest experimenting with the Qwen model in RHEL AI in addition to the Granite model. To switch models, you will stop serving the Granite model first by typing kbd:[CTRL] + kbd:[C].
 
@@ -71,7 +68,7 @@ ilab model serve --model-path ~/.cache/instructlab/models/Qwen/Qwen2.5-7B-Instru
 
 At this point, the configuration for the Qwen model will now work in VSCode, and the Granite model will no longer work.
 
-==== Testing (and playing) Your Game
+== Testing (and playing) Your Game
 
 Once you've completed the coding activities, save your file(s) that you wish to test.
 
@@ -88,7 +85,7 @@ cd /home/dev/rhone_code/game_templates/rock_paper_scissors/
 
 Please follow the following instructions depending on your chosen language.
 
-==== If you are using Python (.py)
+=== If you are using Python (.py)
 
 Run the following command (substitue your filename):
 
@@ -97,7 +94,7 @@ Run the following command (substitue your filename):
 python your_filename.py
 ----
 
-==== If you are using Bash (.sh)
+=== If you are using Bash (.sh)
 
 Make the file executable (you only need to do this once). Substitute your filename:
 
@@ -113,7 +110,7 @@ Run the following command (substitue your filename):
 ./your_filename.sh
 ----
 
-==== Troubleshooting Tips and Reminders
+=== Troubleshooting Tips and Reminders
 
 **If you see a "command not found" or "permission denied" error**:
 
@@ -129,7 +126,7 @@ Run the following command (substitue your filename):
 
 * Feed the errors or explain any issues in the chat and have the AI help you correct your code
 
-=== Optional: Game Solutions
+== Optional: Game Solutions
 
 If you had some trouble getting your game to work and/or you would like to see what working code can look like, navigate to the following directory in your VSCode setup (where you should have the entire cloned repository in view in the `Explorer` tab):
 
