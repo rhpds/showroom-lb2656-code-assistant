@@ -24,9 +24,9 @@ Sounds pretty useful - right? Let's go!
 
 This lab is comprised of two primary system components: a RHEL AI instance (leveraging Image Mode RHEL technology) and a RHEL 9.4 machine with the Visual Studio Code (VSCode) application installed.
 
-In your user interface, you have two tabs that will be used to the right of these instructions. The first tab, titled **Codeserver** shows the VSCode application where you will use the code assistant extension that leverages the deployed Granite model.
+In your user interface, you have two tabs that will be used to the right of these instructions. The first tab, titled **Terminals** is for our two terminal windows. We will use these terminal windows to access both the RHEL AI server and the RHEL server with VSCode installed.
 
-The second tab, titled **Terminals**, is for our two terminal windows. We will use these terminal windows to access both the RHEL AI server and the RHEL server with VSCode installed. 
+The second tab, titled **Terminals**, shows the VSCode application where you will use the code assistant extension that leverages the deployed Granite model.
 
 Our first step is to setup our RHEL AI machine and deploy the Granite model. 
 
