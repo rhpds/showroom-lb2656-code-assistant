@@ -52,7 +52,7 @@ image:models_button.png[width=100%]
 
 Select **Add Models** within the menu that pops up. What you see preset here are the default models. We will adjust these in a moment.
 
-Now, in the `config.yaml` file, delete all file content and copy paste the entirety of the following file into the config.json:
+Now, in the `config.yaml` file, delete all file content and copy paste the entirety of the following file into the config.yaml:
 
 [source,yaml,role=execute,subs=attributes+]
 ----
